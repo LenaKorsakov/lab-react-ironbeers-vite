@@ -1,0 +1,32 @@
+.BeerDetailes {
+  & .img__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+  }
+  & img {
+    width: auto;
+    height: 50vh;
+  }
+
+  & .details__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .level {
+      font-size: 4vw;
+      color: grey;
+    }
+
+    & h2 {
+      color: grey;
+    }
+  }
+
+  & small {
+    font-weight: bold;
+    color: grey;
+  }
+}

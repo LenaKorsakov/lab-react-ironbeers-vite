@@ -1,0 +1,30 @@
+.AddBeerPage {
+  .input__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+
+    & input,
+    textarea {
+      border: 1px solid gainsboro;
+      border-radius: 20px;
+      min-height: 2.5vh;
+      padding: 1vw;
+    }
+
+    & label {
+      font-weight: bold;
+      font-size: 1.3vw;
+    }
+  }
+
+  .btn-submit {
+    color: white;
+    background-color: rgb(71, 183, 235);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1vw 3vw;
+    font-size: 1.5vw;
+  }
+}

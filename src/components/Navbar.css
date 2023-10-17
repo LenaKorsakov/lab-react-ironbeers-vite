@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(71, 183, 235);
+  margin-bottom: 1vh;
+
+  & img {
+    width: 3vw;
+    padding: 1vw;
+  }
+}
